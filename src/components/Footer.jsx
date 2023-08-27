@@ -5,15 +5,15 @@ function Footer() {
     const icons = [
         {
             name: 'fa-brands fa-github',
-            link: 'https://github.com/your-github-username'
+            link: 'https://github.com/aimeedarling'
         },
         {
             name: 'fa-brands fa-linkedin-in',
-            link: 'https://www.linkedin.com/in/your-name-3433'
+            link: 'https://www.linkedin.com/in/aimeedarlingdev/'
         },
         {
             name: "fa-solid fa-envelope",
-            link: 'mailto:youremail@email.com'
+            link: 'mailto:aimeedarlingdev@gmail.com'
         },
 
     ]
