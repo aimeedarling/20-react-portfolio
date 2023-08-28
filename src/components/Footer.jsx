@@ -19,15 +19,12 @@ function Footer() {
     ]
 
     return (
-        <footer>
-            <div className="d-flex justify-content-center align-items-center bg-light ">
-
+        <footer className="d-flex justify-content-center align-items-center">
                 {icons.map(icon =>
                     <div className='px-2 gradient-text opacity-75 fs-5' key={icon.name}>
                         <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>
                     </div>
                 )}
-            </div>
         </footer>
     );
 }

@@ -9,9 +9,11 @@ import Footer from './components/Footer'
 function App() {
   return (
     <>
-    <Navigation />
-    <Outlet />
-    <Footer />
+      <Navigation />
+      <div className="hero-image">
+        <Outlet />
+      </div>
+      <Footer />
     </>
   )
 }

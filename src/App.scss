@@ -1,7 +1,7 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -30,12 +30,16 @@ $primary-color: #BF8E8A;
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
-input, textarea {
+input,
+textarea {
   font-family: 'Helvetica Neue';
 }
 
 
-body, html, #root {
+
+body,
+html,
+#root {
   display: flex;
   flex-direction: column;
   font-size: 62.5%;
@@ -43,18 +47,59 @@ body, html, #root {
   height: 100%;
   color: var(--mauve);
   background-color: var(--cream);
-  font-family: 300 400rem 'Helvetica Neue', 'sans-serif';
-  overflow: hidden;
+  font-family: 300 400rem 'Helvetica Neue', 'sans-serif' !important;
+  // overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale
+}
 
+nav {
+  color: var(--mauve) !important;
+  background-color: var(--pink) !important;
+  height: 8rem;
+  font-size: 2rem;
 }
 
 footer {
   margin-top: auto;
-  height: 60px;
+  height: 8rem;
   text-align: center;
+  background-color: var(--pink);
+}
+
+#about-me-container {
+  position: relative;
+  display: flex;
 
 }
 
-footer>div{
-  height: 60px;
+#background-img {
+  // display: block;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  overflow: hidden;
+  // z-index: 1;
+}
+
+.content-block {
+  border: 1rem solid var(--cream);
+  border-radius: 5px;
+  background: var(--cream);
+  opacity: .8;
+  z-index: 2;
+  position: absolute;
+  margin: auto;
+  width: 75%;
+
+}
+
+.hero-image {
+  background-image:  url('./assets/images/bence-biczo-AOFIIhX1njQ-unsplash.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
