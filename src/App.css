@@ -10,12 +10,10 @@
   --cream: #F5E7DE;
   --mauve: #BF8E8A;
 }
+/* 
+@import 'animate.css'; */
 
-$primary-color: #BF8E8A;
-
-@import 'animate.css';
-
-@font-face {
+/* @font-face {
   font-family: 'Helvetica Neue';
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
 }
@@ -28,12 +26,12 @@ $primary-color: #BF8E8A;
 @font-face {
   font-family: 'Coolvetica';
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
-}
+} */
 
-input,
+/* input,
 textarea {
   font-family: 'Helvetica Neue';
-}
+} */
 
 
 
@@ -48,7 +46,7 @@ html,
   color: var(--mauve);
   background-color: var(--cream);
   font-family: 300 400rem 'Helvetica Neue', 'sans-serif' !important;
-  // overflow: hidden;
+  /* overflow: hidden; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
 }
@@ -67,39 +65,38 @@ footer {
   background-color: var(--pink);
 }
 
-#about-me-container {
-  position: relative;
+#about-me {
   display: flex;
-
-}
-
-#background-img {
-  // display: block;
-  position: absolute;
-  width: 100%;
-  height: auto;
-  background-size: cover;
-  overflow: hidden;
-  // z-index: 1;
-}
-
-.content-block {
-  border: 1rem solid var(--cream);
-  border-radius: 5px;
+  border: 0rem solid var(--cream);
+  z-index: 1;
   background: var(--cream);
-  opacity: .8;
-  z-index: 2;
-  position: absolute;
+  height: 50rem;
+  width: auto;
+  opacity: .9;
+}
+
+
+
+/* .content-block {
+  border-radius: 5px;
   margin: auto;
   width: 75%;
 
-}
+} */
 
 .hero-image {
-  background-image:  url('./assets/images/bence-biczo-AOFIIhX1njQ-unsplash.jpg');
+  background-image: url('./assets/images/bence-biczo-AOFIIhX1njQ-unsplash.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+}
+
+#selfie {
+  position: absolute;
+  z-index: 2;
+  width: 20rem;
+  height: auto;
+  border-radius: 50%;
 }
