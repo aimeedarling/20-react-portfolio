@@ -13,6 +13,8 @@ To showcase my new React skills and have a place to showcase the projects I have
 
 ## Credits
 
+[Deploying Vite / React App to GitHub Pages](https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf)  
+
 [Chat-GPT](https://chat.openai.com/)
 
 [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
