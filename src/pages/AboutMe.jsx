@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function AboutMe() {
     return (
         <div id="about-me">
