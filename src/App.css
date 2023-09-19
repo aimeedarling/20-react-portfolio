@@ -71,20 +71,22 @@ footer {
   border: 0rem solid var(--cream);
   z-index: 1;
   background: var(--cream);
-  width: 100%;
-  height: 90%;
-  opacity: .9;
-  margin-top: 3rem auto;
+  width: 75%;
+  height: 75%;
+  opacity: .95;
+  margin: auto;
+  margin-top: 5rem;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 
 
-/* .content-block {
-  border-radius: 5px;
-  margin: auto;
-  width: 75%;
 
-} */
+a{
+  color: var(--mauve);
+  font-size: 3rem;
+}
 
 .hero-image {
   background-image: url('./assets/images/bence-biczo-AOFIIhX1njQ-unsplash.jpg');
@@ -107,13 +109,17 @@ footer {
 
 }
 
-.resume-div{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-#resume {
-  width: 75%;
-  height: auto;
 
+#resume {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    /* position: center; */
+}
+#resume-img{
+  width: 60%
+}
+
+.bio-text {
+  justify-self: right;
 }
